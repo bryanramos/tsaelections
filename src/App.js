@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {
     BrowserRouter as Router,
     Switch,
@@ -13,7 +14,7 @@ import * as Pages from './components/pages';
 import Footer from './components/common/Footer';
 
 const AppContainer = styled.div`
-    background: rgb(213, 213, 213);
+    background: var(--tsa-gray-color);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -22,6 +23,7 @@ const AppContainer = styled.div`
 const MainContent = styled.main`
     width: 100%;
     flex: 1 0 auto;
+    padding: 20px 0;
 `;
 
 export default function App() {
@@ -30,7 +32,7 @@ export default function App() {
             <span style={{display: "none"}}>Created by Bryan Ramos</span>
             <AppContainer>
                 <Router>
-                    <Header />
+                    <Header title={Constants.Sitename} rootPath={Constants.RootPath} />
                     <MainContent>
                         <Bounds>
                             <Switch>

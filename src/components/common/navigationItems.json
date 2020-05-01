@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "path": "/",
+        "external": false
+    },
+    {
+        "name": "BOD Elections",
+        "path": "/bod-elections",
+        "external": false
+    },
+    {
+        "name": "Officer Elections",
+        "path": "/officer-elections",
+        "external": false
+    },
+    {
+        "name": "General Sessions",
+        "path": "https://www.youtube.com/",
+        "external": true
+    }
+]

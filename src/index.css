@@ -1,12 +1,14 @@
 :root {
-  --tsa-bounds-width: 1200px;
-}
+    --tsa-bounds-width: 1200px;
+    --tsa-gray-color: #EBEBEB;
+    --tsa-accent-color-one: #72C9F5;
+}   
 
-body {
+html body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,4 +16,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/** Header **/
+header .navbar {
+    padding: .5rem 0rem;
 }

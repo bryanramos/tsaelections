@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const BoundsWrapper = styled.div`
     max-width: var(--tsa-bounds-width);
-    margin: 0px;
+    padding: 0 24px;
     margin: 0 auto;
 `;
 
