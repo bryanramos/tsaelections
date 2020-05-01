@@ -1,3 +1,7 @@
+:root {
+  --tsa-bounds-width: 1200px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
