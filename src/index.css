@@ -1,7 +1,9 @@
 :root {
     --tsa-bounds-width: 1200px;
-    --tsa-gray-color: #EBEBEB;
-    --tsa-accent-color-one: #72C9F5;
+    --tsa-gray-color: #f5f5f5;
+    --tsa-accent-color-one: #2196f3;
+    --tsa-accent-color-two: #0d47a1;
+    --tsa-text-color: #333;
 }   
 
 html body {
@@ -11,6 +13,7 @@ html body {
     sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--tsa-text-color);
 }
 
 code {

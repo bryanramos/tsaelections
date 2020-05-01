@@ -7,7 +7,11 @@ import { Bounds } from './Bounds';
 import navigationItems from './navigationItems.json';
 
 const HeaderWrapper = styled.header`
+    box-shadow: 5px 0px 10px rgba(0,0,0,0.05);
     background: #fff;
+    position: sticky;
+    top: 0px;
+    z-index: 900;
     @media screen and (min-width: 992px) {
         .navbar {
             padding: 0;
@@ -24,7 +28,15 @@ const HeaderWrapper = styled.header`
         border-radius: 50%;
         background: var(--tsa-gray-color);
     }
-    @media screen and (min-width: 992px) {
+    .navbar-brand {
+        white-space: normal;
+    }
+    @media (max-width: 600px) {
+        .navbar-brand {
+            max-width: 200px;
+        }
+    }
+    @media (min-width: 992px) {
         .navbar .navbar-nav .nav-link {
             position: relative;
             padding: 1.5rem .5rem;
@@ -54,7 +66,6 @@ const HeaderWrapper = styled.header`
 
 export default function Header(props) {
     const [expanded, setExpanded] = React.useState(false);
-    
     return (
         <HeaderWrapper role="banner">
             <Bounds>

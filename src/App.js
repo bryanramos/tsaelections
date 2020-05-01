@@ -32,7 +32,10 @@ export default function App() {
             <span style={{display: "none"}}>Created by Bryan Ramos</span>
             <AppContainer>
                 <Router>
-                    <Header title={Constants.Sitename} rootPath={Constants.RootPath} />
+                    <Header 
+                        title={Constants.Sitename}
+                        rootPath={Constants.RootPath} 
+                    />
                     <MainContent>
                         <Bounds>
                             <Switch>
@@ -45,7 +48,11 @@ export default function App() {
                             </Switch>
                         </Bounds>
                     </MainContent>
-                    <Footer />
+                    <Footer 
+                        title={Constants.Sitename}
+                        rootPath={Constants.RootPath}
+                    />
+
                 </Router>
             </AppContainer>
         </React.Fragment>

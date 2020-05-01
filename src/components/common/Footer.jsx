@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import { Bounds } from './Bounds';
 
 const FooterWrapper = styled.footer`
@@ -12,7 +13,7 @@ export default class Footer extends React.Component {
         return (
             <FooterWrapper>
                 <Bounds>
-                    Footer Placeholder
+                    Copyright &copy; 2020 - <Link to={this.props.rootPath} title={"Copyright " + this.props.title} aria-label={"Copyright " + this.props.title}>{this.props.title}</Link>
                 </Bounds>
             </FooterWrapper>
         );

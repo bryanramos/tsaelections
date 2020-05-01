@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Watch Texas TSA General Sessions",
+        "description": "Watch the 2020 Texas TSA General Sessions videos live on YouTube!",
+        "path": "https://www.youtube.com/",
+        "external": true
+    },
+    {
+        "title": "Officer Elections and Information",
+        "description": "Learn more about officer candidates and learn how to cast your vote!",
+        "path": "/officer-elections",
+        "external": false
+    },
+    {
+        "title": "Texas TSA Board of Directors",
+        "description": "Learn information about the 2020 Texas TSA Board of Directors elections.",
+        "path": "/bod-elections",
+        "external": false
+    },
+    {
+        "title": "Frequently Asked Questions",
+        "description": "Get quick answers related to voting or find out how to get help.",
+        "path": "/faq",
+        "external": false
+    }
+]
