@@ -2,7 +2,7 @@ import * as React from 'react';
 import styled from 'styled-components';
 import { Bounds } from './Bounds';
 
-const HeaderWrapper = styled.div`
+const HeaderWrapper = styled.header`
     background: #fff;
 `;
 

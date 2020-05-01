@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-export class LandingPage extends React.Component {
+export class OfficerElectionsInstructions extends React.Component {
     render() {
         return (
             <React.Fragment>
-                Landing Page
+                Officer Election Instructions
             </React.Fragment>
         );
     }

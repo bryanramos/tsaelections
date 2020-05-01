@@ -9,6 +9,7 @@ import styled from 'styled-components';
 import * as Constants from './Constants';
 import Header from './components/common/Header';
 import { Bounds } from './components/common/Bounds';
+import * as Pages from './components/pages';
 import Footer from './components/common/Footer';
 
 const AppContainer = styled.div`
@@ -34,6 +35,11 @@ export default function App() {
                         <Bounds>
                             <Switch>
                                 <Route exact={true} path={Constants.RootPath} component={Pages.LandingPage}/>
+                                <Route exact={true} path={Constants.BODElections} component={Pages.BODElections} />
+                                <Route exact={true} path={Constants.OfficerElections} component={Pages.OfficerElections} />
+                                <Route exact={true} path={Constants.OfficerElectionsInstructions} component={Pages.OfficerElectionsInstructions} />
+                                <Route exact={true} path={Constants.OfficerCandidates} component={Pages.OfficerCandidates} />
+                                <Route component={Pages.NoMatch} />
                             </Switch>
                         </Bounds>
                     </MainContent>

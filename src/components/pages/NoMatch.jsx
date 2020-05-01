@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-export class LandingPage extends React.Component {
+export class NoMatch extends React.Component {
     render() {
         return (
             <React.Fragment>
-                Landing Page
+                404: Page Not Found
             </React.Fragment>
         );
     }
